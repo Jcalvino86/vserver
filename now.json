@@ -1,6 +1,5 @@
 {
-  "version": 2,
-  "name": "vserver",
+  "version": 3,
   "builds": [
     {
       "src": "dist/index.js",
@@ -13,14 +12,10 @@
       "dest": "dist/index.js"
     }
   ],
-  "alias": [
-    "vserver"
-  ],
   "env": {
     "NODE_ENV": "production",
     "PORT": "1337",
     "DATABASE_URL_USER": "@visiona-api-db",
-    "CORS_ORIGIN": "https://visiona.cat",
     "API_KEY": "@visiona-api-key"
   }
 }
