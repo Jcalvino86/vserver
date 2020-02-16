@@ -1,20 +1,20 @@
 {
   "version": 2,
-  "name": "visiona-api",
+  "name": "vserver",
   "builds": [
     {
-      "src": "dis/index.js",
+      "src": "dist/index.js",
       "use": "@now/node-server"
     }
   ],
   "routes": [
     {
       "src": "/.*",
-      "dest": "dis/index.js"
+      "dest": "dist/index.js"
     }
   ],
   "alias": [
-    "visiona-api"
+    "vserver"
   ],
   "env": {
     "NODE_ENV": "production",
